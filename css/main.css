@@ -1,0 +1,49 @@
+html body {
+	margin:0;
+	padding:0;
+}
+
+.slider { 
+	height: 100vh;
+	margin:0;
+	padding:0;
+	
+	background: url('../images/header-image-1-low.jpg') no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+
+#sliderContainer {
+	position:relative;
+	top: 250px;	
+}
+
+.slider-text span{
+	color: #f8f8ff;
+	background: rgba(18,18,18,0.7);
+}
+
+#emailbtn {
+	width: 400px;
+	margin:0 auto;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+
+.services-info {
+	padding:20px 0;
+}
+
+.services-box {
+	margin: 30px 0;
+}
+
+.services-box :hover {
+	background-color: rgba(18,18,18,0.7);
+}
+
+.services-box .glyphicon {
+	font-size: 5em;
+}
